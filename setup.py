@@ -59,14 +59,6 @@ setup(
         "tqdm",
     ],
     extras_require={
-        "tests": [
-            "pytest",
-            "pytest-cov",
-            "line_profiler",
-            "pesq",
-            "gradio==3.32.0",
-            "transformers>=4.23.1",
-        ],
         "docs": [
             "sphinx",
             "sphinx-rtd-theme",
