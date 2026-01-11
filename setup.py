@@ -34,7 +34,7 @@ setup(
         ]
     },
     install_requires=[
-        "argbind",
+        #"argbind",
         "numpy",
         "soundfile",
         "pyloudnorm",
@@ -44,9 +44,9 @@ setup(
         "julius",
         "torchaudio",
         "ffmpy",
-        "ipython",
-        "rich",
-        "matplotlib",
+        #"ipython",
+        #"rich",
+        #"matplotlib",
         "librosa",
         "pystoi",
         "torch_stoi",
@@ -54,8 +54,8 @@ setup(
         "markdown2",
         "randomname",
         # Borrowing pin from tensorboard source: https://github.com/tensorflow/tensorboard/commit/e795312f70537cb9c9ab4bd2a08a03e77f0356a5.
-        "protobuf >= 3.19.6, != 4.24.0, < 5.0.0",
-        "tensorboard",
+        #"protobuf >= 3.19.6, != 4.24.0, < 5.0.0",
+        #"tensorboard",
         "tqdm",
     ],
     extras_require={
